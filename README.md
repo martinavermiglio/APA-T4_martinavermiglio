@@ -177,6 +177,22 @@ a ejecutar con la biblioteca `doctest`:
 - Se valorará lo pythónico de la solución; en concreto, su claridad y sencillez, y el
   uso de los estándares marcados por PEP-ocho.
 
+#### Ejecución de los tests unitarios
+
+Inserte a continuación una captura de pantalla que muestre el resultado de ejecutar el
+fichero `aleatorios.py` con la opción *verbosa*, de manera que se muestre el
+resultado de la ejecución de los tests unitarios.
+
+![resultado de los tests 1](testp4_1.jpg)
+![resultado de los tests 2](testp4_2.jpg)
+![resultado de los tests 3](testp4_3.jpg)
+
+#### Código desarrollado
+
+Inserte a continuación el código de los métodos desarrollados en esta tarea, usando los
+comandos necesarios para que se realice el realce sintáctico en Python del mismo (no
+vale insertar una imagen o una captura de pantalla, debe hacerse en formato *markdown*).
+
 ```python
 """
 aleatorios.py creado por Martina Vermiglio Mas
@@ -279,18 +295,6 @@ if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
 ```
-
-#### Ejecución de los tests unitarios
-
-Inserte a continuación una captura de pantalla que muestre el resultado de ejecutar el
-fichero `aleatorios.py` con la opción *verbosa*, de manera que se muestre el
-resultado de la ejecución de los tests unitarios.
-
-#### Código desarrollado
-
-Inserte a continuación el código de los métodos desarrollados en esta tarea, usando los
-comandos necesarios para que se realice el realce sintáctico en Python del mismo (no
-vale insertar una imagen o una captura de pantalla, debe hacerse en formato *markdown*).
 
 #### Subida del resultado al repositorio GitHub y *pull-request*
 
